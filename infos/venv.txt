@@ -1,0 +1,10 @@
+
+## Auf Windows
+#virtuelle umgebung erstellen
+c:\Python\Python310\python.exe -m venv D:\working\venvtest\.venv
+
+# aktivieren
+D:\working\venvtest\.venv\Scripts\activate.bat
+
+# deaktivieren
+D:\working\venvtest\.venv\Scripts\deactivate.bat

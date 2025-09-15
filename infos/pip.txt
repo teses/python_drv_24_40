@@ -1,0 +1,22 @@
+
+pip --version
+pip --help   oder pip help
+
+# Liste aller installierten Pakete
+pip list
+
+# Nachsehen ob ein Modul installiert ist. Paketinformationen anzeigen
+pip show numpy
+
+# Modul  installieren
+pip install numpy
+
+# bestimte version installieren
+pip install numpy==2.2.5
+
+# Modul updaten
+pip install --upgrade numpy
+
+# Alle Module zum updaten anzeigen
+pip list --outdated
+

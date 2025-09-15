@@ -1,6 +1,7 @@
 # python_drv_24_40
 
+Kurs mit Thomas Eses
 
 ## Fortgeschrittene Konzepte
 - Type Hints - Datentypen angeben
-
+- Conditional Expression - Bedingungen in einer Zeile

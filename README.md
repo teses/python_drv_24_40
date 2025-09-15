@@ -5,3 +5,8 @@ Kurs mit Thomas Eses
 ## Fortgeschrittene Konzepte
 - Type Hints - Datentypen angeben
 - Conditional Expression - Bedingungen in einer Zeile
+- Lambda Funktionen
+
+
+## Funktionen
+ 

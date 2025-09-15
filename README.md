@@ -1,4 +1,6 @@
 # python_drv_24_40
 
 
-test
+## Fortgeschrittene Konzepte
+- Type Hints - Datentypen angeben
+

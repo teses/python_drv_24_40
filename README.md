@@ -6,7 +6,9 @@ Kurs mit Thomas Eses
 - Type Hints - Datentypen angeben
 - Conditional Expression - Bedingungen in einer Zeile
 - Lambda Funktionen
-
+- List Comprehensions - Schleifen in einer Zeile
+- Set Comprehensions
+- Dictionary Comprehensions
 
 ## Funktionen
  

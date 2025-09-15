@@ -6,6 +6,10 @@
     - erhöhen die Lesbarkeit des Codes
     - unterstützen bei der Fehlersuche
 
+    Type Hints gibt es für
+    - Variablen
+    - Funktionsparameter und Rückgabe
+    - Klassen/Objekt Attribute und Methoden
 """
 # Variablen - Type Hints
 # Ab Python 3.6 können auch Variablen mit Typannotationen versehen werden.

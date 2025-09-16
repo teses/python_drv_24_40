@@ -5,10 +5,10 @@ Kurs mit Thomas Eses
 ## Fortgeschrittene Konzepte
 - Type Hints - Datentypen angeben
 - Conditional Expression - Bedingungen in einer Zeile
-- Lambda Funktionen
+- Lambda Funktionen - Funktion in einer Zeile
 - List Comprehensions - Schleifen in einer Zeile
-- Set Comprehensions
-- Dictionary Comprehensions
+- Set Comprehensions - Schleifen in einer Zeile
+- Dictionary Comprehensions - Schleifen in einer Zeile
 
 ## Funktionen
  

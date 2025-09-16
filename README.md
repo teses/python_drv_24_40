@@ -12,5 +12,9 @@ Kurs mit Thomas Eses
 - Sortierung mit Key-Funktionen
 - string_regex - Regex 
 
+## Dateihandling
+- file_handling_normal
+- file_handling_with
+ 
 ## Funktionen
  

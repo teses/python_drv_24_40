@@ -29,9 +29,9 @@ kennzeichen = [
 ]
 
 muster       = r"(^[^\s]{1,3})\s([^\s]{1,2})\s[0-9]{1,4}[HE]?$"
-musterThomas = r"^[A-Z]{1,3}\s[A-Z]{1,2}\s[0-9EH]+$"
+muster2 = r"^[A-ZÜÖÄ]{1,3}\s[A-Z]{1,2}\s[0-9]{1,4}[HE]?$"
 
 
 for k in kennzeichen:
-    res = re.search(muster , k)
+    res = re.search(muster2 , k)
     print(k, "True" if res else "False")

@@ -21,7 +21,7 @@ kennzeichen = [
     " DU ME 123H ",  # False
     " ABC A 123", # False
     "WEST 123", # False
-    "WEST A 1" # False
+    "WEST A 1", # False
     "N ABC 11", # False
     "N ABC", # False
     "N 11", # False

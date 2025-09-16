@@ -13,9 +13,11 @@ def meine_sortierung(person):
     return person["abteilung"]
 
 # sortiert mit callback
-mitarbeiter.sort(key=meine_sortierung)
+#mitarbeiter.sort(key=meine_sortierung)
 
 # sortiert mit lambda nach jahr
+mitarbeiter.sort(key=lambda person: person["jahr"])
+
 
 for m in mitarbeiter:
     print(m)

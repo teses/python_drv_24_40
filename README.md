@@ -9,6 +9,7 @@ Kurs mit Thomas Eses
 - List Comprehensions - Schleifen in einer Zeile
 - Set Comprehensions - Schleifen in einer Zeile
 - Dictionary Comprehensions - Schleifen in einer Zeile
+- Sortierung mit Key-Funktionen
 
 ## Funktionen
  

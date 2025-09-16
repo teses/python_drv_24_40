@@ -11,6 +11,7 @@ kennzeichen = [
     "B M 1", # True
     "WES BU 1234", # True
     "WES A 1234", # True
+    "WES A 12345", # False
     "WES A 1000E", # True
     "WÜ AB 12E", # True
     "B AB 1E", # True
@@ -27,9 +28,10 @@ kennzeichen = [
     "N 11", # False
 ]
 
-muster = r""
+muster       = r"(^[^\s]{1,3})\s([^\s]{1,2})\s[0-9]{1,4}[HE]?$"
+musterThomas = r"^[A-Z]{1,3}\s[A-Z]{1,2}\s[0-9EH]+$"
 
 
 for k in kennzeichen:
-    res = re.search(muster, k)
-    print("True" if res else "False")
+    res = re.search(muster , k)
+    print(k, "True" if res else "False")

@@ -10,6 +10,7 @@ Kurs mit Thomas Eses
 - Set Comprehensions - Schleifen in einer Zeile
 - Dictionary Comprehensions - Schleifen in einer Zeile
 - Sortierung mit Key-Funktionen
+- string_regex - Regex 
 
 ## Funktionen
  

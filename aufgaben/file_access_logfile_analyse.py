@@ -11,4 +11,6 @@ Wie oft wurde das "backend" aufgerufen
 Wieviel 404 zugriffe gab es
 extrahiere alle 404 zugriffe -> 404.txt
 
+logfile download unter: https://eses.name/data/access.anonym.log.zip
+
 """

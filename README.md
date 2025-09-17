@@ -19,7 +19,9 @@ Kurs mit Thomas Eses
 ## Funktionen
 - Rekursive Funktionen 
 - Callback
- 
+- Closures - Funktion in Funktion
+- Decorators
+
 ## Erweiterte Exception-Behandlung
 - Der finally-Block - Manuelles Aufräumen
 - Das with-Statement - Automatisches Aufräumen

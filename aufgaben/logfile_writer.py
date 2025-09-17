@@ -9,6 +9,8 @@ Das Logformat soll so aussehen:
 
 
 """
+import time
+
 
 # Konfiguration
 myLogFile = "..\\data\\erster_log.txt"
@@ -21,7 +23,9 @@ def writeLog(logfile, message):
 
 
 writeLog(myLogFile, "Datei konnte nicht gefunden werden. /data/nichtda.txt")
+time.sleep(2)
 writeLog(myLogFile, "Neuer Eintrag")
+time.sleep(2)
 writeLog(myLogFile, "Fehler: Die Welt explodiert gleich..")
 
 

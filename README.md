@@ -18,3 +18,5 @@ Kurs mit Thomas Eses
  
 ## Funktionen
  
+## Erweiterte Exception-Behandlung
+- Der finally-Block - Manuelles Aufräumen

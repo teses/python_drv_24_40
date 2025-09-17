@@ -44,3 +44,10 @@ lines = filehandler.readlines() # die ganze datei im speicher lesen
 for line in lines:
     print(line)
 
+#
+filehandler.close()
+
+
+
+
+

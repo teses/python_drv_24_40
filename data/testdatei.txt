@@ -1,3 +1,9 @@
-Hallo Welt
-2te Zeile
-3te Zeile
+Hallo
+WeltHallo
+WeltHallo
+WeltHallo
+Welt
+ä ü ö
+
+?? ??  ??
+

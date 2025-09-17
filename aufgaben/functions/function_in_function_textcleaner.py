@@ -20,14 +20,34 @@ Rückgabe
 def text_verarbeiter(text):
 
     def cleanup(text):
-        pass
+        #return text.strip().replace("\n", "").replace( "  ", " ")
+        return " ".join(text.strip().lower().split())
+
 
     def count_words(text):
-        pass
+        return len(cleanup(text).split(" "))
+
+    return {
+        "data": cleanup(text),
+        "word_count": count_words(text)
+    }
 
 
-    pass
+def text_cleaner(text):
 
+    def cleanup(t):
+        return " ".join(t.strip().lower().split())
+
+    def count_words(t):
+        return len(t.split())
+
+    clean_text = cleanup(text)
+    word_count = count_words(clean_text)
+
+    return {
+        "data": clean_text,
+        "word_count": word_count
+    }
 
 
 # Test

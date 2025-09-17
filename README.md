@@ -22,6 +22,18 @@ Kurs mit Thomas Eses
 - Closures - Funktion in Funktion
 - Decorators
 
+## highorder
+- map, filter, reduce
+
+## Iteratoren 
+- itertools
+- Wie funktioniert eine for-Schleife? (Das Geheimnis gelüftet)
+- Eigene Iterator-Klasse 
+
+## Generatoren
+- yield
+- Generator Expressions
+
 ## Erweiterte Exception-Behandlung
 - Der finally-Block - Manuelles Aufräumen
 - Das with-Statement - Automatisches Aufräumen

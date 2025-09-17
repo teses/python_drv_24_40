@@ -11,12 +11,17 @@ Das Logformat soll so aussehen:
 """
 import time
 
-
 # Konfiguration
 myLogFile = "..\\data\\erster_log.txt"
 
 
 def writeLog(logfile, message):
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        with open(logfile, "a", encoding="utf-8") as file:
+            file.write(f"[{timestamp}] {message}\n")
+    except Exception as e:
+        print(f"Fehler beim Schreiben der Logdatei: {e}")
     pass
 
 

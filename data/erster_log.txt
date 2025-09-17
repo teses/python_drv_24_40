@@ -1,0 +1,9 @@
+[2025-09-17 09:49:25] Datei konnte nicht gefunden werden. /data/nichtda.txt
+[2025-09-17 09:49:27] Neuer Eintrag
+[2025-09-17 09:49:29] Fehler: Die Welt explodiert gleich..
+[2025-09-17 09:49:58] Datei konnte nicht gefunden werden. /data/nichtda.txt
+[2025-09-17 09:50:00] Neuer Eintrag
+[2025-09-17 09:50:02] Fehler: Die Welt explodiert gleich..
+[2025-09-17 09:51:40] Datei konnte nicht gefunden werden. /data/nichtda.txt
+[2025-09-17 09:51:42] Neuer Eintrag
+[2025-09-17 09:51:44] Fehler: Die Welt explodiert gleich..

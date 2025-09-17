@@ -17,6 +17,11 @@ Kurs mit Thomas Eses
 - file_handling_with
  
 ## Funktionen
+- Rekursive Funktionen 
+- Callback
  
 ## Erweiterte Exception-Behandlung
 - Der finally-Block - Manuelles Aufräumen
+- Das with-Statement - Automatisches Aufräumen
+- Exception Chaining
+- 

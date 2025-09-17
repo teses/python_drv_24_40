@@ -1,0 +1,6 @@
+Susi,1380,7
+Moritz,40,2
+Hans,200,10
+Helmut,100,1
+Henry,160,2
+Henry der 2,80,1

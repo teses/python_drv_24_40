@@ -37,9 +37,7 @@ def process_players2(data, callback):
     for player in data:
         result.append(callback(player))
     return result
-
-
-
+ 
 def double_score(player):
     player["score"] *= 2
     return player

@@ -22,7 +22,8 @@ Kurs mit Thomas Eses
 - Callback
 - Closures - Funktion in Funktion
 - Decorators
-
+- Memoisation - Memoization
+ 
 ## highorder
 - map, filter, reduce
 

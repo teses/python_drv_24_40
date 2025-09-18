@@ -10,3 +10,7 @@ artikel = [
 # den bruttopreis berechnen - 19% aufschlagen
 # und als neues feld anfügen
 
+artikel_brutto = list(map(lambda artikel: {**artikel, "brutto": artikel["price"] * 1.19}, artikel))
+print(artikel_brutto)
+
+

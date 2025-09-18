@@ -24,8 +24,10 @@ Kurs mit Thomas Eses
 - Decorators
 - Memoisation - Memoization
  
-## highorder
-- map, filter, reduce
+## High Order Functions
+- map
+- filter
+- reduce
 
 ## Iteratoren 
 - itertools

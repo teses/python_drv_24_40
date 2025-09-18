@@ -78,6 +78,12 @@ print("-" * 50)
 new_players = process_players(players, extract_name)
 print("Namen extrahiert:", new_players)
 
+#Test extract_name
+print("-" * 50)
+new_players = process_players(players, lambda n: n["name"])
+print("Namen extrahiert mit lambda:", new_players)
+
+
 #Test calculate_average_score
 print("-" * 50)
 new_players = process_players(players, calculate_average_score)

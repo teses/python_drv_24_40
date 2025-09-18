@@ -17,6 +17,7 @@ Kurs mit Thomas Eses
 - file_handling_with
  
 ## Funktionen
+- *args, **kwargs
 - Rekursive Funktionen 
 - Callback
 - Closures - Funktion in Funktion

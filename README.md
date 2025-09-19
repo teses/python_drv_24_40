@@ -42,4 +42,19 @@ Kurs mit Thomas Eses
 - Der finally-Block - Manuelles Aufräumen
 - Das with-Statement - Automatisches Aufräumen
 - Exception Chaining
-- 
+
+## OOP
+* public, protected, privat - Wiederholung
+* @property - Eigenschaften mit getter/setter
+* @property - Eigenschaft beim instanziieren auch prüfen durch setter 
+* @property - Berechnete Properties
+* @classmethod - Klassenmethoden
+* @abstractmethod - Abstrakte Methoden
+* @staticmethod - Statische Methoden
+* Magische Methoden - Objekte schlauer machen __str__, __iter__,..
+* Slots - Nur eine feste Menge von Attributen erlauben
+ 
+## Einführung in "Numerisches Python"
+* NumPy
+* Matplotlib
+* Pandas

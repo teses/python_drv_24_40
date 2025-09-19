@@ -19,6 +19,66 @@ Baue eine Validierung ein:
 
 """
 
+class RechnungsPosition:
+    def __init__(self, beschreibung: str, menge: int, preis_netto: float, mwst_satz: float = 19):
+        self.beschreibung = beschreibung
+        self.menge = menge
+        self.preis_netto = preis_netto
+        self.mwst_satz = mwst_satz
+
+
+
+    # berechnete Properties
+    @property
+    def steuerbetrag(self):
+        return round(self.gesamt_netto * (self.mwst_satz / 100), 3)
+
+    @property
+    def gesamt_brutto(self):
+        #return self.gesamt_netto * (1 + (self.mwst_satz / 100))
+        return self.gesamt_netto + self.steuerbetrag
+
+    @property
+    def gesamt_netto(self):
+        return self.preis_netto * self.menge
+
+
+    # getter and setter
+    @property
+    def menge(self):
+        return self.__menge
+
+    @menge.setter
+    def menge(self, menge):
+        if menge < 0:
+            raise ValueError("Menge muss größer 0 sein")
+
+        self.__menge = menge
+
+
+    @property
+    def preis_netto(self):
+        return self.__preis_netto
+
+    @preis_netto.setter
+    def preis_netto(self, preis_netto):
+        if preis_netto < 0:
+            raise ValueError("Preis Netto muss größer 0 sein")
+
+        self.__preis_netto = preis_netto
+
+
+    @property
+    def mwst_satz(self):
+        return self.__mwst_satz
+
+    @mwst_satz.setter
+    def mwst_satz(self, mwst_satz):
+        if mwst_satz < 0:
+            raise ValueError("MWST Satz muss größer 0 sein")
+
+        self.__mwst_satz = mwst_satz
+
 
 # Erwartete Nutzung
 # Beispiel: 3 Bücher à 12.50 €, 7 % MwSt.

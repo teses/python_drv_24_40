@@ -15,6 +15,12 @@ __lt__
 __bool__  wenn kein Geld vorhanden
 """
 
+## Tests:
+geld1 = Geld(50, "EUR")
+geld2 = Geld(30, "EUR")
+geldDollar = Geld(30, "$")
+geld3 = Geld(0, "EUR")
+
 
 if geld1:
     print("geld ist nicht leer")
